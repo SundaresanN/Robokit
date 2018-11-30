@@ -9,7 +9,7 @@ esp.osdebug(None)
 import gc
 gc.collect()
 
-#Setting Access Point
+#Setting an Access Point
 import uWifi_AP as Wifi_AP
 Wifi_AP.ap_start()
 
