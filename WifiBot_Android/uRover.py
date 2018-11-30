@@ -3,6 +3,8 @@
 from machine import Pin
 
 class Stepper:
+ "Class defining Motor functions"
+ #class initializer
  def __init__(self):
     #LEFT Motor
    self.motorA_front =Pin(5,Pin.OUT)
