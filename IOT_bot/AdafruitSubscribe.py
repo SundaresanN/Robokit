@@ -22,9 +22,9 @@ mqtt_client_id = bytes('client_'+str(random_num), 'utf-8')
 def getCommand():
   #ADAFRUIT_IO_DETAILS
   ADAFRUIT_IO_URL = b'io.adafruit.com' 
-  ADAFRUIT_USERNAME = b'ADAFRUIT USERNAME'
-  ADAFRUIT_IO_KEY = b'ADAFRUIT AIO KEY'
-  ADAFRUIT_IO_FEEDNAME = b'IO FEEDNAME'
+  ADAFRUIT_USERNAME = b'ADAFRUIT USERNAME' #Enter your ADAFRUIT USERNAME
+  ADAFRUIT_IO_KEY = b'ADAFRUIT AIO KEY' #Enter your ADAFRUIT AIO-KEY
+  ADAFRUIT_IO_FEEDNAME = b'IO FEEDNAME'#Enter the FEEDNAME to be Monitored
   
   #CREATING OBJECT FOR MQTTClient Module
   client = MQTTClient(client_id=mqtt_client_id, 
