@@ -5,8 +5,8 @@ import sys
 import time
 
 def Wifi_Connect():
-  WIFI_SSID = 'TBI-Guest'
-  WIFI_PASSWORD = 'Welcome2TBI'
+  WIFI_SSID = "<SSID>"
+  WIFI_PASSWORD = "<Password>"
   
   # turn off the WiFi Access Point
   ap_if = network.WLAN(network.AP_IF)
